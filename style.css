@@ -1,7 +1,23 @@
-ul {
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px 50px;
-    margin: 0%;
-    list-style: none;
+body{
+    margin: 0;;
 }
+.barra-de-navegación{
+    background-color: rgb(126, 201, 174);
+    padding: 10px 0px;
+border-color: blanchedalmond;}
+
+    ul{
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        justify-content: end;
+        padding: 0px 30px;
+        font-family:'Raleway', sans-serif;
+        font-weight: 400;
+        color: black;
+    }
+
+    li{
+        padding: 10px;
+        color: black;
+    }
