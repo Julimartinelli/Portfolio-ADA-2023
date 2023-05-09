@@ -1,23 +1,34 @@
 body{
-    margin: 0;;
+    margin: 0;
 }
-.barra-de-navegación{
-    background-color: rgb(126, 201, 174);
-    padding: 10px 0px;
-border-color: blanchedalmond;}
+
+header {
+    height: 100px;
+    background-color: rgb(246, 246, 246);
+    box-shadow: 2px 2px 5px rgba(240, 219, 219) ;
+}
+
+nav {
+    display:flex;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
 
     ul{
         display: flex;
         list-style: none;
-        text-decoration: none;
-        justify-content: end;
-        padding: 0px 30px;
-        font-family:'Raleway', sans-serif;
-        font-weight: 400;
-        color: black;
+        width: 35%;
+        justify-content: space-around;
     }
 
     li{
         padding: 10px;
-        color: black;
+    }
+
+    a{
+        font-family:'Raleway', sans-serif;
+        font-weight: 800;
+        text-decoration: none;
+        color: #000000b5;
     }
