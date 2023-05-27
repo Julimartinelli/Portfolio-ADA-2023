@@ -4,8 +4,8 @@ body{
 
 header {
     height: 100px;
-    background-color: rgb(246, 246, 246);
-    box-shadow: 2px 2px 5px rgba(240, 219, 219) ;
+    background-color: rgb(255, 237, 230);
+    box-shadow: 2px 2px 5px rgba(240, 219, 219);
 }
 
 nav {
@@ -13,6 +13,7 @@ nav {
     height: 100%;
     align-items: center;
     justify-content: flex-end;
+    color: rgb(242,173,43);
 }
 
     ul{
@@ -28,7 +29,215 @@ nav {
 
     a{
         font-family:'Raleway', sans-serif;
-        font-weight: 800;
+        font-weight: 600;
         text-decoration: none;
-        color: #000000b5;
+        color: rgb(0, 0, 0);
+    }
+
+.sección-presentación{
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+    text-align: center;
+    padding: 150px, 50px, 150px;
+}
+
+    .Presentación{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        max-width: 1100px;
+        box-sizing: border-box;
+    }
+
+
+    .texto-presentación{
+        display: block;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        width: 100%;
+        max-width: 500px;
+        box-sizing: border-box;
+    }
+
+    .Bienvenida{
+        display: block;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        color: black;
+        font-size: 25px;
+        font-family:'Raleway', sans-serif;
+        font-weight: 500;
+        line-height: 1.4;
+        box-sizing: border-box;
+    }
+
+    .Nombre{
+        display: block;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        color: rgb(14,93,88);
+        font-size: 60px;
+        font-family:'Raleway', sans-serif;
+        font-weight: 800;
+        line-height: 1.2;
+        box-sizing: border-box;
+    }
+
+    .Descripción{
+        display: block;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        color: black;
+        font-size: 15px;
+        font-family:'Raleway', sans-serif;
+        font-weight: 300;
+        line-height: 1.4;
+        box-sizing: border-box;
+    }
+
+    .botón-proyectos{
+        font-family:'Raleway', sans-serif;
+        font-weight: ;
+        background-color: rgba(14,93,88);
+        color: rgb(255, 237, 230);
+        padding: 15px 40px;
+        width: 10x;
+        height: 15px;
+        border-radius: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-link.selected, .button {
+        transition: 0.2s;
+    }
+
+    img {
+        display: block;
+        border-radius: 50%;
+        width: 100%;
+        max-width: 500px;
+        overflow: clip;
+        overflow-clip-margin: content-box;
+    }
+
+
+    .conocimientos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding: 110px 40px 130px;
+        margin-top: 150px;
+        background-color: rgb(246, 246, 246);
+        box-sizing: border-box;
+    }
+
+    .descripción-conocimientos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    .título-conocimientos{
+        display: block;
+        text-align: center;
+        color: rgb(14,93,88);
+        font-size: 50px ;
+        font-family:'Raleway', sans-serif;
+        font-weight: 800;
+    }
+
+    .frase-conocimientos{
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        font-family:'Raleway', sans-serif;
+        font-weight: 300;
+        line-height: 1.4;
+        max-width: 500px;
+        box-sizing: border-box;
+    }
+
+    .contenedor-herramientas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #fff 
+    }
+
+    .tarjeta-herramienta{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(246, 246, 246);
+        border: 1px solid rgb(239, 207, 146);
+        border-radius: 10px;
+        margin: 10px;
+        padding: 40px;
+    }
+
+    .sección-frase{
+        display: flex;
+        padding: 150px, 50px, 150px;
+        height: 250px;
+        background-color: rgb(14,93,88);
+        justify-content: center;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .contenido-frase{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 1100px;
+        box-sizing: border-box;
+    }
+
+    .frase{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        text-align: center;
+        font-size: 100px ;
+        font-family:'Raleway', sans-serif;
+        font-weight: 600;
+        color: rgb(255, 237, 230);
+        font-size: 1.2rem;
+        max-width: 800px
+    }
+
+    footer{
+        display: flex;
+        padding: 60px, 20px, 60px;
+        background-color: rgb(14,93,88);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgb(246, 246, 246);
+        box-sizing: border-box;
+    }
+
+    .nav-footer{
+        display: block;
+    }
+
+    .menú-footer{
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .apartado-nav-footer{
+        
     }
