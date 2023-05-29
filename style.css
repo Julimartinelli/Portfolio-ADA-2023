@@ -3,31 +3,54 @@ body{
 }
 
 header {
+    display:flex;
+    width: 100%;
+    padding: 20px 0;
+    justify-content: center;
     height: 100px;
     background-color: rgb(255, 237, 230);
     box-shadow: 2px 2px 5px rgba(240, 219, 219);
 }
 
-nav {
+.contendor-menú-principal{
+    display: block;
+    width: 50%;
+    max-width: 1100px;
+}
+
+.menú-principal{
     display:flex;
     height: 100%;
     align-items: center;
-    justify-content: flex-end;
-    color: rgb(242,173,43);
+    justify-content:flex-end;
 }
 
-    ul{
+    .lista-menú-principal{
         display: flex;
+        justify-content: flex-end;
         list-style: none;
-        width: 35%;
-        justify-content: space-around;
+        margin: 0;
+        padding: 0;
     }
 
-    li{
+    .item-menú-principal{
+        display: list-item;
+        margin:0 10;
         padding: 10px;
     }
 
+    .botón-contacto{
+        background-color: rgb(14,93,88);
+        color: rgb(14,93,88);
+        border-radius: 50px;
+        padding: 0 25px;
+    }
+
     a{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1em;
         font-family:'Raleway', sans-serif;
         font-weight: 600;
         text-decoration: none;
@@ -39,7 +62,7 @@ nav {
     margin-top: 90px;
     justify-content: center;
     text-align: center;
-    padding: 150px, 50px, 150px;
+    padding: 150px 50px 150px;
 }
 
     .Presentación{
@@ -134,7 +157,7 @@ nav {
         width: 100%;
         padding: 110px 40px 130px;
         margin-top: 150px;
-        background-color: rgb(246, 246, 246);
+        background-color: rgb(255, 237, 230);
         box-sizing: border-box;
     }
 
@@ -170,13 +193,11 @@ nav {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        background-color: #fff 
     }
 
     .tarjeta-herramienta{
         width: 200px;
         height: 200px;
-        background-color: rgb(246, 246, 246);
         border: 1px solid rgb(239, 207, 146);
         border-radius: 10px;
         margin: 10px;
@@ -216,9 +237,79 @@ nav {
         max-width: 800px
     }
 
-    footer{
+    .sección-proyectos{
         display: flex;
-        padding: 60px, 20px, 60px;
+        justify-content: center;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .título-proyectos{
+        font-size: 50px ;
+        font-family:'Raleway', sans-serif;
+        font-weight: 800;
+        color: rgb(0, 0, 0);
+    }
+
+    .breve-descripción-proyectos{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        text-align: center;
+        font-size: 20px ;
+        font-family:'Raleway', sans-serif;
+        font-weight: 300;
+        color: rgb(0, 0, 0);
+        font-size: 1rem;
+        max-width: 800px
+    }
+
+
+    .contendor-contacto{
+        display: block;
+        width: 100%;
+        max-width: 1100px;
+    }
+
+    .datos-de-contacto{
+        display: flex;
+        background-color: rgb(255, 237, 230);
+        padding: 80px 80px;
+        border-radius: 15px;
+        border: 1px solid rgb(240, 219, 219)
+    }
+
+    .redes{
+        width: 50%;
+        padding-right: 25px;
+        text-align: left;
+    }
+
+    .título-contacto{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 20px ;
+        font-family:'Raleway', sans-serif;
+        font-weight: 800;
+        color: rgb(0, 0, 0);
+    }
+
+    .descripción-contacto{
+        margin-top: 0px;
+        margin-bottom: 20px;
+        font-size: 15px ;
+        font-family:'Raleway', sans-serif;
+        font-weight: 300;
+        color: rgb(0, 0, 0);
+    }
+
+    .
+
+
+    footer {
+        display: flex;
+        padding: 60px 20px 60px;
         background-color: rgb(14,93,88);
         flex-direction: column;
         justify-content: center;
@@ -228,7 +319,6 @@ nav {
     }
 
     .nav-footer{
-        display: block;
     }
 
     .menú-footer{
@@ -236,6 +326,12 @@ nav {
         list-style: none;
         padding: 0;
         margin: 0;
+    }
+
+    li{
+        display: list-item;
+        margin: 0 10px;
+        line-height: 1.5;
     }
 
     .apartado-nav-footer{
