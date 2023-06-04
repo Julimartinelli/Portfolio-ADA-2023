@@ -21,10 +21,9 @@
 </head>
 <body>
     <header>
-        <!-- barra de navegación -->
+        <!--acá empieza barra de navegación -->
             <div class="contenedor-menú-principal">
             <nav class="menú-principal">
-
             <!-- menú principal de navegación -->
             <ul class="lista-menú-principal">
                 <li class="item-menú-principal">
@@ -41,6 +40,7 @@
                 </li>
             </ul>
             </nav>
+            <!--acá termina barra de navegación -->
         </div>
     </header>
     <section class="sección-presentación">
@@ -62,6 +62,7 @@
         </div>
         </div>
     </section>
+    <!--sección herramientas -->
     <section class="conocimientos">
         <div class="descripción-conocimientos">
             <h2 class="título-conocimientos">
@@ -141,7 +142,7 @@
             </p>
         </div>
         <div class="contenedor-proyectos">
-            <div class="tarjeta-herramienta">
+            <div class="tarjeta-proyecto">
                 <a href="#" target="_blank">
                     <img src="imagen_generador_de_memes.png" alt="personas frente a computadora" class="imagen_proyecto">
                     <p class="nombre-proyecto"> 
@@ -149,7 +150,7 @@
                     </p>
                 </a>
             </div>
-            <div class="tarjeta-herramienta">
+            <div class="tarjeta-proyecto">
             <a href="#" target="_blank">
                 <img src="imagen_generador_de_memes.png" alt="personas frente a computadora" class="imagen_proyecto">
                 <p class="nombre-proyecto"> 
@@ -193,6 +194,7 @@
     <section class="sección-contacto">
         <div class="contenedor-contacto">
             <div class="contendor-redes">
+                <!--acá empieza la sección de contacto a redes sociales con link externo a redes reales -->
             <section class="redes"> 
                 <h2 class="título-contacto">
                     Me encontrás en estas redes sociales
@@ -222,24 +224,28 @@
                 </ul>
             </section>
             </div>
+            <!--acá empieza el formulario -->
     <section class="sección-escribime">
         <h2 class="título-escribime">
             Escribime
         </h2>
-        <div class="formulario-contacto">
+        <div class="input-nombre">
             <label for="nombre"> Nombre </label>
             <input type="text" name="nombre" id="firstname" class="input-nombre" placeholder="Por ejemplo: Julieta" aria aria-label="Nombre" required>
             <label for="Apellido"> Apellido </label>
+        </div>
+        <div>
             <input type="text" name="apellido" id="lastname" class="input-apellido" placeholder="Por ejemplo: Martinelli" aria aria-label="apellido" required>
             <label for="Mail"> Mail </label>
             <input type="text" name="mail" id="mail" class="input-mail" placeholder="Por ejemplo: julietaamartinelli@gmail.com" aria aria-label="mail" required>
-            <label for="Mensaje"> Mail </label>
+        </div>
+        <div><label for="Mensaje"> Mensaje </label>
             <textarea name="Mensaje" id="Mensaje" cols="50" rows="10" class="input-mensaje" placeholder="Dejame acá tu mensaje" aria-label="mensaje" required></textarea>
         </div>
         </section>
         </div>
     </section>
-        <!--ACÁ VA EL FORM DE CONTACTO-->
+    <!--acá termina el formulario y empieza el footer -->
     <footer>
         <nav class="nav-footer">
             <ul class="menú-footer">
@@ -278,5 +284,6 @@
             Hecho con amor y mucho trabajo por Juli
             </p>
     </footer>
+    <!--acá termina el footer -->
 </body>
 </html>
