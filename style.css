@@ -130,7 +130,7 @@ a {
   background-color: rgba(14, 93, 88);
   color: rgb(255, 237, 230);
   padding: 15px 40px;
-  width: 10x;
+  width: 10%;
   height: 15px;
   border-radius: 100px;
   justify-content: center;
@@ -324,7 +324,7 @@ a {
   padding-bottom: 100px;
   padding-left: 220px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .contenedor-contacto {
@@ -342,8 +342,8 @@ a {
 }
 
 .redes {
-  padding-right: 25px;
-  width: 50%;
+  padding-right: 10px;
+  width: 90%;
 }
 
 .sección-escribime{
@@ -502,14 +502,35 @@ li {
   color: rgb(0, 0, 0);
 }
 
-@media ( max-width: 100){
+@media ( max-width: 650){
   .sección-contacto
   width: 50%;
 }
-@media (max-width: 900px) {
+@media (max-width: px) {
   .contenedor-contacto {
     flex-direction: column;
     padding: 0;
+  }
+}
+
+@media (max-width: 650px) {
+    .contenedor-contacto {
+        flex-direction: column;
+    }
+    .redes, .contenedor-escribime{
+        width: 50%;
+      }
+      .contenedor-contacto{
+        width: 50%;
+      }
+}
+
+@media (max-width: 650px) {
+  .hover {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
   }
 }
 
@@ -524,5 +545,11 @@ li {
   border-color: 1px solid rgb(247, 227, 227);
   transition-property: border;
   background-color: rgb(247, 227, 227);
+  transition-duration: 2s;
+}
+
+.botón-proyectos :hover {
+  transition-property: border;
+  background-color: rgb(58, 116, 112);
   transition-duration: 2s;
 }
