@@ -1,4 +1,5 @@
 #Portfolio-ADA-2023
+##Julieta Martinelli. Alumna de ADA. Generación 18.
 
 Este es el primer proyecto de entrega obligatoria en la carrera de ADA Frontend. En este caso diseñé e implementé un sitio web con mis datos como *desarrolladora web* siguiendo los lineamientos dados en las condiciones de entrega y aprobación.
 
@@ -42,14 +43,5 @@ Menos de 6 (No aprobado)
 ```HTML```
 ```CSS```
 
-[Acá encontras el proyecto deployado] (https://julimartinelli.github.io/Portfolio-ADA-2023/)
+> [Acá encontras el proyecto deployado] (https://julimartinelli.github.io/Portfolio-ADA-2023/)
 
-**ANEXOS**
-> Algunas conclusiones de mis sentimientos duerante este proceso:
-
-Tuve dos o tres momentos así:
-![imagen_de_meme_triunfo] (meme_triunfal.jpg)
-
-
-Pero la mayoría del tiempo me sentí así:
-![imagen de meme ayudame] (https://pxb.cdn.ciudadano.news/ciudadano/042023/1682699890554/descarga-27-jpg..jpg)
