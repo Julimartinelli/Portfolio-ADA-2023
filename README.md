@@ -38,9 +38,17 @@ Cuenta con un favicon
 Cuenta con etiquetas para redes sociales </sub>
 
 **Estas son las 'herramientas' que usé**
-'''HTML'''
-'''CSS'''
 
-> comentario
+```HTML```
+```CSS```
 
-"para destacar"
+[Acá encontras el proyecto deployado] (https://julimartinelli.github.io/Portfolio-ADA-2023/)
+
+**ANEXOS**
+> Algunas conclusiones de mis sentimientos duerante este proceso:
+
+Tuve dos o tres momentos así:
+![meme_triunfo] (https://www.elmetropolitanodigital.com/wp-content/uploads/2017/08/meme.jpg)
+
+Pero la mayoría del tiempo me sentí así:
+![meme] (https://pxb.cdn.ciudadano.news/ciudadano/042023/1682699890554/descarga-27-jpg..jpg)
