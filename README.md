@@ -48,7 +48,8 @@ Menos de 6 (No aprobado)
 > Algunas conclusiones de mis sentimientos duerante este proceso:
 
 Tuve dos o tres momentos así:
-![imagen de memetriunfo] (meme_triunfal.jpg)
+![imagen_de_meme_triunfo] (meme_triunfal.jpg)
+
 
 Pero la mayoría del tiempo me sentí así:
 ![imagen de meme ayudame] (https://pxb.cdn.ciudadano.news/ciudadano/042023/1682699890554/descarga-27-jpg..jpg)
